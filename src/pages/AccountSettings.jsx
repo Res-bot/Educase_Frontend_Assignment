@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import myimg from '../assets/dp2a.jpg'
 
 function AccountSettings() {
 
@@ -46,7 +47,7 @@ function AccountSettings() {
         <div className="flex items-center gap-4 mb-4">
 
           <img
-            src="https://randomuser.me/api/portraits/women/44.jpg"
+            src= {myimg}
             alt="profile"
             className="w-14 h-14 rounded-full"
           />
